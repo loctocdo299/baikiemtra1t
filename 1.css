@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1400px;
+    height: 650px;
+    margin: 0 auto;
+font-family: Arial;
+background-image: url(img/bg.png);
+overflow-x: hidden;
+}
+.header{
+    margin-top: 30px;
+    text-align: center;
+}
+.header p{
+  margin-bottom: 30px;
+  font-size: 15px;
+  color:gray;
+}
+.header .active{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .cottrai{
+    margin-left: 212px;
+}
+
+.main .cottrai .annie{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.main .cottrai p{
+   font-size: 14px;
+    color:gray;
+   margin-bottom: 28px;
+   line-height: 30px;
+  
+}
+
+.main .cotphai{
+    margin-left: 165px;
+    margin-right: 181px;
+}
+.main .cotphai p{
+    line-height: 25px;
+    color:gray;
+    margin-bottom: 16px;
+    font-family: 'Segoe UI';
+}
+.main .cotphai .jay{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.main .cotphai p{
+    color:gray; 
+    font-size: 14px;
+    margin-bottom: 28px;
+    line-height: 30px;
+    font-family: 'Segoe UI';
+}
+.footer{
+    text-align: center;
+    margin-top: 115px;
+}
+
